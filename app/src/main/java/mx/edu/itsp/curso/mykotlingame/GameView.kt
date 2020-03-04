@@ -46,10 +46,6 @@ class GameView(context:Context) : SurfaceView(context),android.view.SurfaceHolde
     override fun draw(canvas: Canvas?) {
         super.draw(canvas)
         if(canvas!=null){
-         /*   canvas.drawColor(Color.WHITE)
-            var paint= Paint()
-            paint.setColor(Color.rgb(255,0,0))
-            canvas.drawRect(100f,100f,200f,200f,paint)*/
             characterSprite.draw(canvas)
         }
     }

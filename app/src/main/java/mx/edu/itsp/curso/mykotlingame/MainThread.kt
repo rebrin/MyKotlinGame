@@ -19,6 +19,8 @@ class MainThread(var surfaceHolder: SurfaceHolder,var gameView: GameView):Thread
                 if(canvas!= null)
                 surfaceHolder.unlockCanvasAndPost(canvas)
             }
+
+            Thread.sleep(111)
         }
     }
 }
